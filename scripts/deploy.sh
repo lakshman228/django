@@ -10,7 +10,7 @@ cd /var/www/django
 git pull
 
 # install the app dependencies
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # run the databse migration
 python manage.py migrate
