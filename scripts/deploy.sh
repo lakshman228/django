@@ -20,7 +20,7 @@ python manage.py migrate
 deactivate
 
 # reload nginx
-sudo systemctl reload nginx
+#sudo systemctl reload nginx
 
 # restart the gunicorn
-sudo systemctl restart gunicorn
+#sudo systemctl restart gunicorn
