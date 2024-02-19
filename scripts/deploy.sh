@@ -13,6 +13,6 @@ cd /var/www/django
 pip install -r requirements.txt
 
 # run the databse migration
-python manage.py migrate
+python3 manage.py migrate
 
 
