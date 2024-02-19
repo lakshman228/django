@@ -17,7 +17,7 @@ python manage.py migrate
 
 
 # deactivate
-deactivate
+#deactivate
 
 # reload nginx
 #sudo systemctl reload nginx
