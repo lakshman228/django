@@ -19,7 +19,7 @@ pipeline {
          stage('Deploy') {
             steps {
                 sh 'echo deploying'
-                sh '''ssh /home/deploy/.ssh/id_rsa deploy@192.168.1.37 -o StrictHostKeyChecking=no "bash /var/www/django/deploy.sh"'''
+                sh '''ssh -i deploy@192.168.1.37 -o StrictHostKeyChecking=no "bash /var/www/django/deploy.sh"'''
             }
         }
     }
