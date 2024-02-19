@@ -16,11 +16,3 @@ pip install -r requirements.txt
 python manage.py migrate
 
 
-# deactivate
-#deactivate
-
-# reload nginx
-#sudo systemctl reload nginx
-
-# restart the gunicorn
-#sudo systemctl restart gunicorn
