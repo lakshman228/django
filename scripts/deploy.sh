@@ -7,7 +7,7 @@ source .venv/bin/activate
 cd /var/www/django
 
 # pull the latest codebase
-git pull
+#git pull
 
 # install the app dependencies
 pip install -r requirements.txt
