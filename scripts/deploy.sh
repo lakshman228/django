@@ -16,7 +16,7 @@ pip install -r requirements.txt
 python manage.py migrate
 
 # run the collect static command
-python manage.py collectstatic --no-input
+python manage.py collectstatic 
 
 # put all other commads that required for you specific app
 
