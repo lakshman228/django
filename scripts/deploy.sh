@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # activate the virtual environment
+cd /var/www/
 source .venv/bin/activate
 
 # Cd into the project code
