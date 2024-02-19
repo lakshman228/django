@@ -19,7 +19,7 @@ pipeline {
          stage('Deploy') {
             steps {
                 sh 'echo deploying'
-                sh ' ssh -i /home/dare/.ssh/id_rsa deploy@192.168.1.37 " bash /var/www/django/deploy.sh " '
+                sh 'ssh -i /home/dare/.ssh/id_rsa deploy@192.168.1.37 " bash /var/www/django/deploy.sh"'
 '
             }
         }
