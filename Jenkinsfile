@@ -12,6 +12,7 @@ pipeline {
          stage('Test') {
             steps {
                 sh 'echo Testing'
+                sh 'python3 manage.py test'
             }
         }
         
