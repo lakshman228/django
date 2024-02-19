@@ -3,5 +3,5 @@
 
 # activate the virtual environment
 cd /var/www/django
-source /venv/bin/activate
+source /.venv/bin/activate
 
