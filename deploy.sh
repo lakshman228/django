@@ -1,8 +1,7 @@
 
 #!/usr/bin/env bash
 
-cd /var/www/django
+# Activate virtual environment
+source ./.venv/bin/activate
 
-# activate the virtual environment
-source /.venv/bin/activate
 
