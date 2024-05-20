@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # activate the virtual environment
-source ~/venv/bin/activate
+source ~/envtestdjango/bin/activate
 
 # Cd into the project code
 cd /var/www/django
